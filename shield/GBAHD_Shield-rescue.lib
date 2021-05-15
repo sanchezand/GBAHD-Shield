@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SOLDER_JUMPER-keyboard_parts
+#
+DEF SOLDER_JUMPER-keyboard_parts SJ 0 40 Y Y 1 F N
+F0 "SJ" 0 -50 60 H V C CNN
+F1 "SOLDER_JUMPER-keyboard_parts" 50 150 60 H I C CNN
+F2 "" 50 0 60 H V C CNN
+F3 "" 50 0 60 H V C CNN
+DRAW
+S -50 100 0 0 0 1 0 F
+S 50 100 100 0 0 1 0 F
+X ~ 1 -100 50 50 R 50 50 1 1 P
+X ~ 2 150 50 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
