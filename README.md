@@ -10,6 +10,7 @@ Has the following features.
 
 ## Issues
 - __*Version 2 Untested*__
+- If you want a stable release, use [this branch](https://github.com/sanchezand/GBAHD-Shield/tree/version-1).
 
 ## Contributing
 If you wish to contribute, see something wrong or want to add a feature please make a pull request or leave an issue!
