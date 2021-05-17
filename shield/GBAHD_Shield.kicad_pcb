@@ -415,7 +415,7 @@
     (at 127.344 97.762 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
-    (fp_text reference REF** (at 0 -2.33 90) (layer F.SilkS)
+    (fp_text reference EXP1 (at 0 -2.33 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PinHeader_1x08_P2.54mm_Vertical (at 0 20.11 90) (layer F.Fab)
@@ -456,7 +456,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A2631C)
     (at 140.6 45.7 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -478,7 +478,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A261EE)
     (at 158.6 45.7 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -500,7 +500,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A261EE)
     (at 119.6 45.7 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -522,7 +522,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A261EE)
     (at 104.6 45.7 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -544,7 +544,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A261C0)
     (at 91.6 45.7 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -566,7 +566,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A25EED)
     (at 139.2 101.578 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -588,7 +588,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A25E72)
     (at 159.2 101.578 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -610,7 +610,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A25E72)
     (at 119.2 101.578 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -632,7 +632,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A251C6)
     (at 105.2 101.578 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -654,7 +654,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A2514B)
     (at 93.1 101.578 180)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.Fab) hide
@@ -676,7 +676,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A24F55)
     (at 110.65 95.7 90)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2 90) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.Fab) hide
@@ -698,7 +698,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A24E6A)
     (at 110.65 87.9 90)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2 90) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.Fab) hide
@@ -720,7 +720,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A2207C)
     (at 110.65 52.8 90)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2 90) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.Fab) hide
@@ -742,7 +742,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A22059)
     (at 110.65 63.35 90)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2 90) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.Fab) hide
@@ -764,7 +764,7 @@
 
   (module Panelization:mouse-bite-2.54mm-slot (layer F.Cu) (tedit 5EAA5249) (tstamp 60A21F24)
     (at 110.65 73.9 90)
-    (fp_text reference mouse-bite-2.54mm-slot (at 0 -2 90) (layer F.Fab) hide
+    (fp_text reference mousebite (at 0 -2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.Fab) hide
@@ -928,7 +928,7 @@
 
   (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 0) (tstamp 60A1EA27)
     (at 98.386002 75.962 180)
-    (fp_text reference HOLE_M3 (at 0 -4.5 90) (layer F.Fab) hide
+    (fp_text reference HOLEM3 (at 0 -4.5 90) (layer F.Fab) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.Fab) hide
@@ -939,7 +939,7 @@
 
   (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 0) (tstamp 60A1D74E)
     (at 106.386002 50.462 180)
-    (fp_text reference HOLE_M3 (at 0 -4.5 90) (layer F.Fab) hide
+    (fp_text reference HOLEM3 (at 0 -4.5 90) (layer F.Fab) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.Fab) hide
@@ -2080,7 +2080,7 @@
     (at 150.204 97.762 90)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
-    (fp_text reference REF** (at 0 -2.33 90) (layer F.SilkS) hide
+    (fp_text reference EXP2 (at 0 -2.33 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PinHeader_1x06_P2.54mm_Vertical (at 2 6.54) (layer F.Fab) hide
@@ -3268,6 +3268,20 @@
   (segment (start 147.14 61.486) (end 149.714 61.486) (width 0.2) (layer F.Cu) (net 63))
   (segment (start 149.714 61.486) (end 149.8 61.4) (width 0.2) (layer F.Cu) (net 63))
   (via (at 149.8 61.4) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 63))
+  (segment (start 149.39 67.736) (end 149.39 68.018) (width 0.2) (layer F.Cu) (net 64) (tstamp 609BA24C))
+  (segment (start 150.5 62.3) (end 150.6 62.2) (width 0.2) (layer F.Cu) (net 64))
+  (segment (start 150.5 65.626) (end 150.5 62.3) (width 0.2) (layer F.Cu) (net 64))
+  (segment (start 149.39 66.736) (end 150.5 65.626) (width 0.2) (layer F.Cu) (net 64))
+  (segment (start 149.39 67.736) (end 149.39 66.736) (width 0.2) (layer F.Cu) (net 64))
+  (via (at 150.6 62.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 64))
+  (segment (start 150.6 62.2) (end 154.998298 62.2) (width 0.2) (layer B.Cu) (net 64))
+  (segment (start 154.998298 62.2) (end 157.149149 64.350851) (width 0.2) (layer B.Cu) (net 64))
+  (via (at 157.8 66.438) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 64))
+  (segment (start 157.8 65.001702) (end 157.8 66.438) (width 0.2) (layer B.Cu) (net 64))
+  (segment (start 157.149149 64.350851) (end 157.8 65.001702) (width 0.2) (layer B.Cu) (net 64))
+  (segment (start 157.8 66.566) (end 157.8 66.438) (width 0.2) (layer F.Cu) (net 64))
+  (segment (start 158.472 67.238) (end 157.8 66.566) (width 0.2) (layer F.Cu) (net 64))
+  (segment (start 159.322 67.238) (end 158.472 67.238) (width 0.2) (layer F.Cu) (net 64))
   (segment (start 162.638924 61.744271) (end 163.038923 61.344272) (width 0.2) (layer F.Cu) (net 65))
   (segment (start 161.101996 60.738) (end 162.108267 61.744271) (width 0.2) (layer F.Cu) (net 65))
   (via (at 163.038923 61.344272) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 65))
@@ -3285,6 +3299,11 @@
   (segment (start 160.638 66.238) (end 160.95 66.55) (width 0.2) (layer F.Cu) (net 66))
   (segment (start 159.322 66.238) (end 160.638 66.238) (width 0.2) (layer F.Cu) (net 66))
   (via (at 160.95 66.55) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 66))
+  (via (at 150.9 60.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 66))
+  (segment (start 147.14 60.686) (end 150.786 60.686) (width 0.2) (layer F.Cu) (net 66))
+  (segment (start 150.786 60.686) (end 150.9 60.8) (width 0.2) (layer F.Cu) (net 66))
+  (segment (start 160.95 66.55) (end 155.2 60.8) (width 0.2) (layer B.Cu) (net 66))
+  (segment (start 155.2 60.8) (end 150.9 60.8) (width 0.2) (layer B.Cu) (net 66))
   (segment (start 161.638 60.238) (end 162.2 60.8) (width 0.2) (layer F.Cu) (net 67))
   (segment (start 159.322 60.238) (end 161.638 60.238) (width 0.2) (layer F.Cu) (net 67))
   (via (at 162.2 60.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 67))
@@ -3306,6 +3325,11 @@
   (via (at 138.2 82.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 90))
   (segment (start 138.2 86.8) (end 138.24 86.84) (width 0.2) (layer B.Cu) (net 90))
   (segment (start 138.2 82.8) (end 138.2 86.8) (width 0.2) (layer B.Cu) (net 90))
+  (segment (start 140.45 82.8) (end 138.2 82.8) (width 0.2) (layer F.Cu) (net 90))
+  (segment (start 145.3 77.95) (end 140.45 82.8) (width 0.2) (layer F.Cu) (net 90))
+  (segment (start 145.3 64.726) (end 145.3 77.95) (width 0.2) (layer F.Cu) (net 90))
+  (segment (start 146.14 63.886) (end 145.3 64.726) (width 0.2) (layer F.Cu) (net 90))
+  (segment (start 147.14 63.886) (end 146.14 63.886) (width 0.2) (layer F.Cu) (net 90))
   (via (at 153.7 65.3) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 91))
   (segment (start 155.64 61.486) (end 154.64 61.486) (width 0.2) (layer F.Cu) (net 91))
   (segment (start 154.64 61.486) (end 153.7 62.426) (width 0.2) (layer F.Cu) (net 91))
@@ -3342,6 +3366,12 @@
   (segment (start 119.95 59.3) (end 116.2 55.55) (width 0.2) (layer B.Cu) (net 109))
   (segment (start 125.45 80.3) (end 119.95 74.8) (width 0.2) (layer B.Cu) (net 109))
   (segment (start 143.95 80.3) (end 125.45 80.3) (width 0.2) (layer B.Cu) (net 109))
+  (via (at 143 78.7) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 109))
+  (segment (start 143 64.160455) (end 143 78.7) (width 0.2) (layer F.Cu) (net 109))
+  (segment (start 143 79.35) (end 143 78.7) (width 0.2) (layer B.Cu) (net 109))
+  (segment (start 143.95 80.3) (end 143 79.35) (width 0.2) (layer B.Cu) (net 109))
+  (segment (start 147.14 62.286) (end 144.874455 62.286) (width 0.2) (layer F.Cu) (net 109))
+  (segment (start 144.874455 62.286) (end 143 64.160455) (width 0.2) (layer F.Cu) (net 109))
   (via (at 148.496088 72.260304) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 111))
   (segment (start 147.14 66.286) (end 147.14 70.904216) (width 0.2) (layer F.Cu) (net 111))
   (segment (start 147.14 70.904216) (end 148.496088 72.260304) (width 0.2) (layer F.Cu) (net 111))
@@ -3358,36 +3388,6 @@
   (segment (start 125.384301 80.8) (end 119.54999 74.965689) (width 0.2) (layer B.Cu) (net 111))
   (segment (start 143.2 80.8) (end 125.384301 80.8) (width 0.2) (layer B.Cu) (net 111))
   (segment (start 143.7 81.3) (end 143.2 80.8) (width 0.2) (layer B.Cu) (net 111))
-  (segment (start 149.39 67.736) (end 149.39 68.018) (width 0.2) (layer F.Cu) (net 64) (tstamp 609BA24C))
-  (segment (start 150.5 62.3) (end 150.6 62.2) (width 0.2) (layer F.Cu) (net 64))
-  (segment (start 150.5 65.626) (end 150.5 62.3) (width 0.2) (layer F.Cu) (net 64))
-  (segment (start 149.39 66.736) (end 150.5 65.626) (width 0.2) (layer F.Cu) (net 64))
-  (segment (start 149.39 67.736) (end 149.39 66.736) (width 0.2) (layer F.Cu) (net 64))
-  (via (at 150.6 62.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 64))
-  (segment (start 150.6 62.2) (end 154.998298 62.2) (width 0.2) (layer B.Cu) (net 64))
-  (segment (start 154.998298 62.2) (end 157.149149 64.350851) (width 0.2) (layer B.Cu) (net 64))
-  (via (at 157.8 66.438) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 64))
-  (segment (start 157.8 65.001702) (end 157.8 66.438) (width 0.2) (layer B.Cu) (net 64))
-  (segment (start 157.149149 64.350851) (end 157.8 65.001702) (width 0.2) (layer B.Cu) (net 64))
-  (segment (start 157.8 66.566) (end 157.8 66.438) (width 0.2) (layer F.Cu) (net 64))
-  (segment (start 158.472 67.238) (end 157.8 66.566) (width 0.2) (layer F.Cu) (net 64))
-  (segment (start 159.322 67.238) (end 158.472 67.238) (width 0.2) (layer F.Cu) (net 64))
-  (via (at 150.9 60.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 66))
-  (segment (start 147.14 60.686) (end 150.786 60.686) (width 0.2) (layer F.Cu) (net 66))
-  (segment (start 150.786 60.686) (end 150.9 60.8) (width 0.2) (layer F.Cu) (net 66))
-  (segment (start 160.95 66.55) (end 155.2 60.8) (width 0.2) (layer B.Cu) (net 66))
-  (segment (start 155.2 60.8) (end 150.9 60.8) (width 0.2) (layer B.Cu) (net 66))
-  (segment (start 140.45 82.8) (end 138.2 82.8) (width 0.2) (layer F.Cu) (net 90))
-  (segment (start 145.3 77.95) (end 140.45 82.8) (width 0.2) (layer F.Cu) (net 90))
-  (segment (start 145.3 64.726) (end 145.3 77.95) (width 0.2) (layer F.Cu) (net 90))
-  (segment (start 146.14 63.886) (end 145.3 64.726) (width 0.2) (layer F.Cu) (net 90))
-  (segment (start 147.14 63.886) (end 146.14 63.886) (width 0.2) (layer F.Cu) (net 90))
-  (via (at 143 78.7) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 109))
-  (segment (start 143 64.160455) (end 143 78.7) (width 0.2) (layer F.Cu) (net 109))
-  (segment (start 143 79.35) (end 143 78.7) (width 0.2) (layer B.Cu) (net 109))
-  (segment (start 143.95 80.3) (end 143 79.35) (width 0.2) (layer B.Cu) (net 109))
-  (segment (start 147.14 62.286) (end 144.874455 62.286) (width 0.2) (layer F.Cu) (net 109))
-  (segment (start 144.874455 62.286) (end 143 64.160455) (width 0.2) (layer F.Cu) (net 109))
   (via (at 142.7 82.05) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 112))
   (segment (start 152.002001 88.485001) (end 152.972 89.455) (width 0.2) (layer F.Cu) (net 112))
   (segment (start 149.135001 88.485001) (end 152.002001 88.485001) (width 0.2) (layer F.Cu) (net 112))
