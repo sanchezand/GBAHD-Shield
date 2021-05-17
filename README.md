@@ -10,6 +10,7 @@ Has the following features.
 
 ## Issues
 - __*Version 2 Untested*__
+- __*Version 2 firmware not yet coded*__
 - If you want a stable release, use [this branch](https://github.com/sanchezand/GBAHD-Shield/tree/version-1).
 
 ## Contributing
