@@ -287,24 +287,24 @@ $EndComp
 $Comp
 L Device:C C1
 U 1 1 5FFC1902
-P 10600 1600
-F 0 "C1" V 10348 1600 50  0000 C CNN
-F 1 "22pF" V 10439 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10638 1450 50  0001 C CNN
-F 3 "~" H 10600 1600 50  0001 C CNN
-	1    10600 1600
-	0    1    1    0   
+P 10850 2850
+F 0 "C1" V 10598 2850 50  0000 C CNN
+F 1 "22pF" V 10689 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10888 2700 50  0001 C CNN
+F 3 "~" H 10850 2850 50  0001 C CNN
+	1    10850 2850
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5FFC247D
-P 10600 2200
-F 0 "C2" V 10750 2200 50  0000 C CNN
-F 1 "22pF" V 10850 2200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10638 2050 50  0001 C CNN
-F 3 "~" H 10600 2200 50  0001 C CNN
-	1    10600 2200
-	0    1    1    0   
+P 10250 2850
+F 0 "C2" V 10400 2850 50  0000 C CNN
+F 1 "22pF" V 10500 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10288 2700 50  0001 C CNN
+F 3 "~" H 10250 2850 50  0001 C CNN
+	1    10250 2850
+	-1   0    0    1   
 $EndComp
 Text GLabel 4900 2700 0    50   Input ~ 0
 GBA_CLK
@@ -354,7 +354,7 @@ F 3 "" H 7700 3500 50  0001 C CNN
 	1    7700 3500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9400 1650 2    50   Input ~ 0
+Text GLabel 10250 1450 1    50   Input ~ 0
 ICSP_MISO
 Text GLabel 9400 1750 2    50   Input ~ 0
 ICSP_SCK
@@ -362,10 +362,6 @@ Text GLabel 9400 1550 2    50   Input ~ 0
 ICSP_MOSI
 Text GLabel 7700 3300 2    50   Input ~ 0
 SP_3V3
-Wire Wire Line
-	9400 1850 9950 1850
-Wire Wire Line
-	9400 1950 9950 1950
 $Comp
 L power:GND #PWR0105
 U 1 1 5FFD7A59
@@ -499,74 +495,66 @@ GBA_START
 Text GLabel 9400 3550 2    50   Input ~ 0
 GBA_SELECT
 Wire Wire Line
-	9950 1950 9950 2200
+	10550 3100 10850 3100
 Wire Wire Line
-	10850 1900 10850 1600
+	10850 3100 10850 3000
 Wire Wire Line
-	10850 1600 10750 1600
+	10550 3100 10250 3100
 Wire Wire Line
-	10850 1900 10850 2200
+	10250 3100 10250 3000
+Connection ~ 10550 3100
 Wire Wire Line
-	10850 2200 10750 2200
-Connection ~ 10850 1900
-Wire Wire Line
-	10850 1900 10950 1900
+	10550 3100 10550 3200
 $Comp
 L power:GND #PWR0104
 U 1 1 60021E7C
-P 10950 1900
-F 0 "#PWR0104" H 10950 1650 50  0001 C CNN
-F 1 "GND" V 10955 1772 50  0000 R CNN
-F 2 "" H 10950 1900 50  0001 C CNN
-F 3 "" H 10950 1900 50  0001 C CNN
-	1    10950 1900
-	0    -1   -1   0   
+P 10550 3200
+F 0 "#PWR0104" H 10550 2950 50  0001 C CNN
+F 1 "GND" V 10555 3072 50  0000 R CNN
+F 2 "" H 10550 3200 50  0001 C CNN
+F 3 "" H 10550 3200 50  0001 C CNN
+	1    10550 3200
+	1    0    0    -1  
 $EndComp
 Text GLabel 10350 4350 0    50   Input ~ 0
 GBA_VCC
 Text GLabel 4900 1650 0    50   Input ~ 0
 GB_G2
 Wire Wire Line
-	10500 1900 10850 1900
+	10550 2750 10550 3100
 Text GLabel 6000 1400 0    50   BiDi ~ 0
 SP_IO4
 $Comp
 L Device:Crystal_GND24 X1
 U 1 1 5FFD18DB
-P 10300 1900
-F 0 "X1" V 10450 1750 50  0000 L CNN
-F 1 "Crystal_GND2" V 10150 1350 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 10300 1900 50  0001 C CNN
-F 3 "~" H 10300 1900 50  0001 C CNN
-	1    10300 1900
-	0    -1   -1   0   
+P 10550 2550
+F 0 "X1" V 10700 2400 50  0000 L CNN
+F 1 "Crystal_GND2" V 10400 2000 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 10550 2550 50  0001 C CNN
+F 3 "~" H 10550 2550 50  0001 C CNN
+	1    10550 2550
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 1750 10300 1600
+	10700 2550 10850 2550
 Wire Wire Line
-	10300 1600 10450 1600
+	10850 2550 10850 2700
 Wire Wire Line
-	10300 2050 10300 2200
-Connection ~ 10300 2200
+	10400 2550 10250 2550
+Connection ~ 10250 2550
 Wire Wire Line
-	10300 2200 10450 2200
-Wire Wire Line
-	9950 1850 9950 1600
-Wire Wire Line
-	9950 1600 10300 1600
-Connection ~ 10300 1600
-Wire Wire Line
-	9950 2200 10300 2200
+	10250 2550 10250 2700
+Connection ~ 10850 2550
 $Comp
 L power:GND #PWR0111
 U 1 1 5FFDA756
-P 10100 1900
-F 0 "#PWR0111" H 10100 1650 50  0001 C CNN
-F 1 "GND" V 10105 1772 50  0000 R CNN
-F 2 "" H 10100 1900 50  0001 C CNN
-F 3 "" H 10100 1900 50  0001 C CNN
-	1    10100 1900
-	0    1    1    0   
+P 10550 2350
+F 0 "#PWR0111" H 10550 2100 50  0001 C CNN
+F 1 "GND" V 10555 2222 50  0000 R CNN
+F 2 "" H 10550 2350 50  0001 C CNN
+F 3 "" H 10550 2350 50  0001 C CNN
+	1    10550 2350
+	-1   0    0    1   
 $EndComp
 $Comp
 L Raizu:CONN_WII P1
@@ -630,12 +618,12 @@ Text GLabel 9400 3650 2    50   Input ~ 0
 GBA_RESET
 Text GLabel 10350 5250 0    50   Input ~ 0
 GBA_RESET
-Text GLabel 10000 1300 2    50   Input ~ 0
-SP_ARD4
-Text GLabel 10000 1050 2    50   Input ~ 0
-SP_ARD1
-Text GLabel 10000 800  2    50   Input ~ 0
-SP_ARD0
+Text GLabel 9400 1450 2    50   Input ~ 0
+OSD_ENABLE
+Text GLabel 9400 1350 2    50   Input ~ 0
+OSD_CLK
+Text GLabel 9400 1250 2    50   Input ~ 0
+OSD_DATA
 Text GLabel 7900 4150 2    50   Input ~ 0
 JOY_SCL
 Text GLabel 7900 4250 2    50   Input ~ 0
@@ -815,57 +803,6 @@ Text GLabel 7500 4850 0    50   Input ~ 0
 JOY_DET
 Text GLabel 7500 4950 0    50   Input ~ 0
 JOY_SDA
-$Comp
-L Device:Jumper_NC_Small JP2
-U 1 1 60A5C6EF
-P 9900 1050
-F 0 "JP2" H 9900 1150 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 9900 1000 20  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9900 1050 50  0001 C CNN
-F 3 "~" H 9900 1050 50  0001 C CNN
-	1    9900 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NC_Small JP3
-U 1 1 60A5D830
-P 9900 1300
-F 0 "JP3" H 9900 1400 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 9900 1250 20  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9900 1300 50  0001 C CNN
-F 3 "~" H 9900 1300 50  0001 C CNN
-	1    9900 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NC_Small JP1
-U 1 1 60A5E115
-P 9900 800
-F 0 "JP1" H 9900 900 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 9900 750 20  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9900 800 50  0001 C CNN
-F 3 "~" H 9900 800 50  0001 C CNN
-	1    9900 800 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 1250 9550 1250
-Wire Wire Line
-	9550 1250 9550 800 
-Wire Wire Line
-	9550 800  9800 800 
-Wire Wire Line
-	9400 1350 9650 1350
-Wire Wire Line
-	9650 1350 9650 1050
-Wire Wire Line
-	9650 1050 9800 1050
-Wire Wire Line
-	9400 1450 9750 1450
-Wire Wire Line
-	9750 1450 9750 1300
-Wire Wire Line
-	9750 1300 9800 1300
 $Comp
 L Connector_Generic:Conn_01x20 J9
 U 1 1 60AA1942
@@ -1271,4 +1208,56 @@ Wire Wire Line
 	2050 6100 2150 6100
 Text GLabel 9400 3250 2    50   Input ~ 0
 GBA_B
+Text GLabel 5150 3350 2    50   Input ~ 0
+SP_ARD0
+Text GLabel 4900 3350 0    50   Input ~ 0
+OSD_DATA
+Text GLabel 5150 3450 2    50   Input ~ 0
+SP_ARD1
+Text GLabel 4900 3450 0    50   Input ~ 0
+OSD_CLK
+Text GLabel 10450 1650 2    50   Input ~ 0
+OSD_LATCH
+Text GLabel 5150 3550 2    50   Input ~ 0
+SP_ARD4
+Text GLabel 4900 3550 0    50   Input ~ 0
+OSD_ENABLE
+Text GLabel 5150 3650 2    50   Input ~ 0
+SP_ARD12
+Text GLabel 4900 3650 0    50   Input ~ 0
+OSD_LATCH
+Wire Wire Line
+	4900 3350 5150 3350
+Wire Wire Line
+	5150 3450 4900 3450
+Wire Wire Line
+	4900 3550 5150 3550
+Wire Wire Line
+	5150 3650 4900 3650
+$Comp
+L Connector:TestPoint TP19
+U 1 1 60AD9813
+P 8200 1450
+F 0 "TP19" V 8350 1800 50  0000 C CNN
+F 1 "TestPoint" V 8250 1850 50  0000 C CNN
+F 2 "Raizu_OFFSET:SOLDER_PAD" H 8400 1450 50  0001 C CNN
+F 3 "~" H 8400 1450 50  0001 C CNN
+	1    8200 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 1850 10850 1850
+Wire Wire Line
+	10850 1850 10850 2550
+Wire Wire Line
+	9400 1950 10250 1950
+Wire Wire Line
+	10250 1950 10250 2550
+Wire Wire Line
+	9400 1650 10250 1650
+Wire Wire Line
+	10250 1650 10250 1450
+Wire Wire Line
+	10250 1650 10450 1650
+Connection ~ 10250 1650
 $EndSCHEMATC
