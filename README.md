@@ -44,7 +44,9 @@ Use the following image to wire up an arduino to the board to program it.
 **I would also recomend not programming it while seated in the FPGA board.**
 ![PCB](./static/icsp.png "Wireup")  
 After wiring the board, follow this tutorial to flash the bootloader and the sketch to the board.  
-[ICSP Tutorial](https://www.arduino.cc/en/pmwiki.php?n=Tutorial/ArduinoISP)
+[ICSP Tutorial](https://www.arduino.cc/en/pmwiki.php?n=Tutorial/ArduinoISP)  
+  
+The Arduino code requires the [NintendoExtensionCtrl](https://github.com/dmadison/NintendoExtensionCtrl) library.
 
 ## Version 1 vs Version 2
 - __Removed SNES connector for an classic controller connector__
