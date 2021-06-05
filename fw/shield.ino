@@ -94,7 +94,7 @@ void readController(){
   controller_payload[0] = snes.buttonB();
   controller_payload[1] = snes.buttonY();
   controller_payload[2] = snes.buttonSelect();
-  controller_payload[3] = snes.buttonStart();
+  controller_payload[3] = snes.buttonStart() && (!snes.buttonL() && !snes.buttonR());
   controller_payload[4] = snes.dpadUp();
   controller_payload[5] = snes.dpadDown();
   controller_payload[6] = snes.dpadLeft();
@@ -111,7 +111,7 @@ void readController(){
   payload[4] = controller_payload[5];
   payload[5] = controller_payload[4];
 
-  if(controller_payload[10] && controller_payload[11] && controller_payload[3]){
+  if(snes.buttonL() && snes.buttonR() && snes.buttonStart()){
     if(!osd_toggled){
       osd_toggle = !osd_toggle;
       digitalWrite(OSD_TOGGLE, osd_toggle);
