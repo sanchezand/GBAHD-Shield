@@ -12,6 +12,8 @@ Has the following features.
 - Havent had the chance to fully test the controller extension board, but the controller port on it works.
 - Controller extension board needs to be made bigger and separate the button from the LED and the LED from the controller port.
 - No case made for it yet
+- GND pin on the breakout board needs to be moved (doesnt affect anything)
+- Labels on breakout board need to be made bigger
 
 ## Contributing
 If you wish to contribute, see something wrong or want to add a feature please make a pull request or leave an issue!
