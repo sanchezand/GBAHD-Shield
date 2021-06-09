@@ -6,12 +6,12 @@ Has the following features.
 - Has a FFC 40, 32 and 34 pin connector for GBA LCD connector.
 - Has a FFC 20 pin connector for controls with a wire up board.
 - Has a ATMEGA328p for using a SNES Classic connector to control the GBA.
-- **Both FFC cables need to be opposite side** (Confirmation needed)
+- **Both FFC cables need to be opposite side**
 
 ## Issues
-- __*Version 2 Untested*__
-- __*Version 2 firmware not yet coded*__
-- If you want a stable release, use [this branch](https://github.com/sanchezand/GBAHD-Shield/tree/version-1).
+- Havent had the chance to fully test the controller extension board, but the controller port on it works.
+- Controller extension board needs to be made bigger and separate the button from the LED and the LED from the controller port.
+- No case made for it yet
 
 ## Contributing
 If you wish to contribute, see something wrong or want to add a feature please make a pull request or leave an issue!
